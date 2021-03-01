@@ -152,7 +152,6 @@ fun MainScreen(navController: NavHostController) {
     }
 }
 
-@OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun AdoptMeTab(navController: NavHostController) {
     Column(modifier = Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
