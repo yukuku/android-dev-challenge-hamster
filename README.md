@@ -2,17 +2,21 @@
 
 <!--- Replace <OWNER> with your Github Username and <REPOSITORY> with the name of your repository. -->
 <!--- You can find both of these in the url bar when you open your repository in github. -->
-![Workflow result](https://github.com/<OWNER>/<REPOSITORY>/workflows/Check/badge.svg)
+![Workflow result](https://github.com/yukuku/android-dev-challenge-hamster/workflows/Check/badge.svg)
 
 
 ## :scroll: Description
 <!--- Describe your app in one or two sentences -->
-
+Ouch! You will never be satisfied if you have never adopted a hamster in your life.
+Do not miss this opportunity to be bitten by a hamster and say the enjoyable "Ouch!"
 
 ## :bulb: Motivation and Context
 <!--- Optionally point readers to interesting parts of your submission. -->
 <!--- What are you especially proud of? -->
-
+* I'm proud that I can make a grid layout without using the unstable LazyVerticalGrid.
+  When I used LazyVerticalGrid, images intermittently disappear.
+* I'm proud of the usage of Navigation Component in Compose.
+* I learned how to display and hide alert dialogs in Compose.
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
