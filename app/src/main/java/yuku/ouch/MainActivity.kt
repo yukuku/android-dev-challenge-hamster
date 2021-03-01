@@ -178,10 +178,12 @@ fun AdoptMeTab(navController: NavHostController) {
                         }
                     }
                 }
+
+                item {
+                    Box(modifier = Modifier.height(80.dp))
+                }
             }
         )
-
-        Box(modifier = Modifier.height(80.dp))
     }
 }
 
@@ -255,6 +257,8 @@ fun DetailScreen(hamster: Hamster) {
                 onDismissRequest = { openDialog = false },
             )
         }
+
+        Box(modifier = Modifier.height(24.dp))
     }
 }
 
