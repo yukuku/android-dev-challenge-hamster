@@ -68,7 +68,6 @@ import androidx.navigation.compose.navigate
 import androidx.navigation.compose.rememberNavController
 import yuku.ouch.ui.theme.MyTheme
 
-
 enum class TabId {
     AdoptMe,
     Profile,
@@ -196,9 +195,11 @@ fun RowScope.HamsterItem(navController: NavHostController, hamster: Hamster) {
             modifier = Modifier
                 .height(160.dp)
                 .padding(8.dp)
-                .clickable(onClick = {
-                    navController.navigate("detail/${hamster.id}")
-                })
+                .clickable(
+                    onClick = {
+                        navController.navigate("detail/${hamster.id}")
+                    }
+                )
                 .fillMaxWidth(),
             contentScale = ContentScale.Crop,
         )
